@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/*重置样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div, section, figure { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body { font-size: 16px; height: 100%; }
+
+fieldset, img { border: none; }
+
+em, i, b, strong { font-style: normal; font-weight: normal; }
+
+ul, ol { list-style: none; }
+
+a { text-decoration: none; }
+
+header h1 { display: none; }
+
+header #logo { height: 25px; width: 90px; margin: 9px 0 0 10px; }
+
+.qq-slider { width: 100%; overflow: hidden; }
+
+.qq-slider .qq-slider-wrap { display: flex; transition: .3; }
+
+.qq-slider .qq-slider-item { flex-basis: 100%; }
+
+.qq-slider .qq-slider-item > a { display: block; }
+
+.qq-slider .qq-slider-item > a img { width: 100%; }
+
+.navbar .nav-list { display: flex; justify-content: space-between; flex-direction: row; text-align: center; }
+
+.navbar .nav-list .nav-item { position: relative; flex: 1; height: 40px; line-height: 40px; }
+
+.navbar .nav-list .nav-item.active { color: #31c27c; }
+
+.navbar .nav-list .nav-item.active::after { content: ""; display: block; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: #31c27c; }
+
+.hide { display: none; }
+
+header { height: 44px; background: #31c27c; }
