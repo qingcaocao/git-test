@@ -2,11 +2,13 @@
 /*重置样式*/
 html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div, section, figure { margin: 0; padding: 0; box-sizing: border-box; }
 
-html, body { font-size: 16px; height: 100%; }
+html, body { font-size: 16px; height: 100%; background-color: #F3F3F3; }
 
 fieldset, img { border: none; }
 
 em, i, b, strong { font-style: normal; font-weight: normal; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-size: 16px; }
 
 ul, ol { list-style: none; }
 
@@ -35,5 +37,25 @@ header #logo { height: 25px; width: 90px; margin: 9px 0 0 10px; }
 .navbar .nav-list .nav-item.active::after { content: ""; display: block; position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: #31c27c; }
 
 .hide { display: none; }
+
+.radios { margin: 14px 10px 10px; }
+
+.radios .title { font-size: 16px; color: #000; margin-bottom: 11px; font-weight: normal; }
+
+.radios .list { display: flex; justify-content: space-between; }
+
+.radios .list .list-item { width: 100%; background-color: white; }
+
+.radios .list .list-item img { top: 0; left: 0; display: block; width: 100%; z-index: 1; }
+
+.radios .list .list-item:first-child { margin-right: 8px; }
+
+.radios .list .list-radio { position: relative; margin-bottom: 5px; }
+
+.radios .list .icon { background-image: url("../imgs/play_list.png"); background-repeat: no-repeat; background-size: 24px 60px; }
+
+.radios .list .icon_play { position: absolute; display: block; z-index: 10; height: 24px; bottom: 5px; right: 5px; width: 24px; background-position: 0 0; }
+
+.radios .list h2 { height: 36px; }
 
 header { height: 44px; background: #31c27c; }
