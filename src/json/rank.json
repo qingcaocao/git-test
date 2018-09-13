@@ -1,0 +1,235 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "topList": [
+            {
+                "id": 4,
+                "listenCount": 19700000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_4_300_215830524.jpg",
+                "songList": [
+                    { "singername": "蔡徐坤", "songname": "Wait Wait Wait" },
+                    {
+                        "singername": "RADWIMPS (ラッドウィンプス)",
+                        "songname": "夢灯籠 (Dream Lantern)"
+                    },
+                    { "singername": "王以太", "songname": "目不转睛 (Live)" }
+                ],
+                "topTitle": "巅峰榜·流行指数",
+                "type": 0
+            },
+            {
+                "id": 26,
+                "listenCount": 19800000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_26_300_215847717.jpg",
+                "songList": [
+                    { "singername": "TFBOYS", "songname": "喜欢你" },
+                    { "singername": "Olly Murs", "songname": "That Girl" },
+                    { "singername": "G.E.M. 邓紫棋", "songname": "倒数" }
+                ],
+                "topTitle": "巅峰榜·热歌",
+                "type": 0
+            },
+            {
+                "id": 27,
+                "listenCount": 11630220,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_27_300_215830524.jpg",
+                "songList": [
+                    { "singername": "蔡徐坤", "songname": "Wait Wait Wait" },
+                    { "singername": "TFBOYS", "songname": "喜欢你" },
+                    {
+                        "singername": "康树龙",
+                        "songname": "魔鬼中的天使 (醇享版)"
+                    }
+                ],
+                "topTitle": "巅峰榜·新歌",
+                "type": 0
+            },
+            {
+                "id": 54,
+                "listenCount": 7565220,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_54_300_216069049.jpg",
+                "songList": [
+                    { "singername": "蔡维泽", "songname": "5:10a.m. (Live)" },
+                    { "singername": "蔡维泽", "songname": "给点掌声 (Live)" },
+                    { "singername": "邓典", "songname": "你要的爱 (Live)" }
+                ],
+                "topTitle": "勇闯天涯·巅峰榜·明日之子",
+                "type": 0
+            },
+            {
+                "id": 55,
+                "listenCount": 10000000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_55_300_216080561.jpg",
+                "songList": [
+                    { "singername": "王以太", "songname": "目不转睛 (Live)" },
+                    { "singername": "艾热", "songname": "星球坠落 (Live)" },
+                    {
+                        "singername": "刘柏辛Lexie（刘昱妤）",
+                        "songname": "Coco Made Me Do It (Live)"
+                    }
+                ],
+                "topTitle": "江小白YOLO·巅峰榜·中国新说唱",
+                "type": 0
+            },
+            {
+                "id": 56,
+                "listenCount": 12271800,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_56_300_216020559.jpg",
+                "songList": [
+                    {
+                        "singername": "康树龙",
+                        "songname": "魔鬼中的天使 (醇享版)"
+                    },
+                    {
+                        "singername": "Tiger",
+                        "songname": "水中花 + La Vie En Rose (Live)"
+                    },
+                    { "singername": "康树龙", "songname": "野花 (Live)" }
+                ],
+                "topTitle": "巅峰榜·2018中国好声音",
+                "type": 0
+            },
+            {
+                "id": 28,
+                "listenCount": 19200000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_28_300_215059567.jpg",
+                "songList": [
+                    { "singername": "九局", "songname": "我已经爱上你" },
+                    { "singername": "王北车", "songname": "陷阱" },
+                    { "singername": "洛晴", "songname": "可能否" }
+                ],
+                "topTitle": "巅峰榜·网络歌曲",
+                "type": 0
+            },
+            {
+                "id": 5,
+                "listenCount": 4906980,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_5_300_215847717.jpg",
+                "songList": [
+                    { "singername": "TFBOYS", "songname": "喜欢你" },
+                    { "singername": "TFBOYS", "songname": "最好的那年" },
+                    { "singername": "易烊千玺", "songname": "灾" }
+                ],
+                "topTitle": "巅峰榜·内地",
+                "type": 0
+            },
+            {
+                "id": 6,
+                "listenCount": 4244680,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_6_300_215540451.jpg",
+                "songList": [
+                    { "singername": "G.E.M. 邓紫棋", "songname": "倒数" },
+                    { "singername": "张惠妹", "songname": "双影" },
+                    { "singername": "邵雨薇", "songname": "星月" }
+                ],
+                "topTitle": "巅峰榜·港台",
+                "type": 0
+            },
+            {
+                "id": 3,
+                "listenCount": 9200000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_3_300_214956931.jpg",
+                "songList": [
+                    { "singername": "Alan Walker", "songname": "Darkside" },
+                    {
+                        "singername": "Camila Cabello",
+                        "songname": "Real Friends"
+                    },
+                    { "singername": "Troye Sivan", "songname": "Animal" }
+                ],
+                "topTitle": "巅峰榜·欧美",
+                "type": 0
+            },
+            {
+                "id": 16,
+                "listenCount": 6464640,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_16_300_215745254.jpg",
+                "songList": [
+                    {
+                        "singername": "(여자)아이들 ((女)孩子们)",
+                        "songname": "한 (一)"
+                    },
+                    {
+                        "singername": "Red Velvet (레드벨벳)",
+                        "songname": "Power Up"
+                    },
+                    { "singername": "효린 (孝琳)", "songname": "BAE" }
+                ],
+                "topTitle": "巅峰榜·韩国",
+                "type": 0
+            },
+            {
+                "id": 29,
+                "listenCount": 4686940,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_29_300_215809354.jpg",
+                "songList": [
+                    { "singername": "谭维维", "songname": "江湖儿女" },
+                    { "singername": "秦岚", "songname": "雪落下的声音" },
+                    { "singername": "火箭少女101", "songname": "卡路里" }
+                ],
+                "topTitle": "巅峰榜·影视金曲",
+                "type": 0
+            },
+            {
+                "id": 17,
+                "listenCount": 1918470,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_17_300_215930609.jpg",
+                "songList": [
+                    {
+                        "singername": "秦基博 (はたもとひろ)",
+                        "songname": "あぶない部下と危険な上司 (危险的部下与危险的上司)"
+                    },
+                    {
+                        "singername": "Perfume (电音香水)",
+                        "songname": "Future Pop"
+                    },
+                    {
+                        "singername": "back number (バックナンバー)",
+                        "songname": "大不正解"
+                    }
+                ],
+                "topTitle": "巅峰榜·日本",
+                "type": 0
+            },
+            {
+                "id": 201,
+                "listenCount": 154998,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150127163830.jpg",
+                "songList": [
+                    { "singername": "萨顶顶", "songname": "左手指月" },
+                    { "singername": "杨紫", "songname": "天地无霜" },
+                    { "singername": "蔡徐坤", "songname": "Pull Up" }
+                ],
+                "topTitle": "巅峰榜·MV",
+                "type": 0
+            },
+            {
+                "id": 52,
+                "listenCount": 1950000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_52_300_215687187.jpg",
+                "songList": [
+                    { "singername": "七修远", "songname": "你会是我的吗" },
+                    { "singername": "简弘亦", "songname": "不染" },
+                    { "singername": "一棵小葱", "songname": "柳岸旁" }
+                ],
+                "topTitle": "巅峰榜·腾讯音乐人原创榜",
+                "type": 0
+            },
+            {
+                "id": 36,
+                "listenCount": 3025360,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_36_300_200732018.jpg",
+                "songList": [
+                    { "singername": "胡赟兆", "songname": "啷个哩个啷" },
+                    { "singername": "冯鑫", "songname": "成都" },
+                    { "singername": "武勇", "songname": "一次就好" }
+                ],
+                "topTitle": "巅峰榜·K歌金曲",
+                "type": 0
+            }
+        ]
+    }
+}

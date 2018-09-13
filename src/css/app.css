@@ -30,7 +30,7 @@ header #logo { height: 25px; width: 90px; margin: 9px 0 0 10px; }
 
 .navbar .nav-list { display: flex; justify-content: space-between; flex-direction: row; text-align: center; }
 
-.navbar .nav-list .nav-item { position: relative; flex: 1; height: 40px; line-height: 40px; }
+.navbar .nav-list .nav-item { position: relative; flex: 1; height: 40px; line-height: 40px; background-color: #fff; }
 
 .navbar .nav-list .nav-item.active { color: #31c27c; }
 
@@ -38,24 +38,64 @@ header #logo { height: 25px; width: 90px; margin: 9px 0 0 10px; }
 
 .hide { display: none; }
 
-.radios { margin: 14px 10px 10px; }
+.radios, .hotlists { margin: 14px 0px 0px 10px; }
 
-.radios .title { font-size: 16px; color: #000; margin-bottom: 11px; font-weight: normal; }
+.radios .title, .hotlists .title { font-size: 16px; color: #000; margin-bottom: 11px; font-weight: normal; }
 
-.radios .list { display: flex; justify-content: space-between; }
+.radios .list, .hotlists .list { display: flex; flex-wrap: wrap; justify-content: space-between; }
 
-.radios .list .list-item { width: 100%; background-color: white; }
+.radios .list .list-item, .hotlists .list .list-item { width: 50%; flex: 1; flex-basis: 40%; padding-right: 8px; margin-bottom: 10px; }
 
-.radios .list .list-item img { top: 0; left: 0; display: block; width: 100%; z-index: 1; }
+.radios .list .list-item img, .hotlists .list .list-item img { display: block; width: 100%; z-index: 1; min-height: 145px; }
 
-.radios .list .list-item:first-child { margin-right: 8px; }
+.radios .list .list-radio, .hotlists .list .list-radio { position: relative; margin-bottom: 5px; }
 
-.radios .list .list-radio { position: relative; margin-bottom: 5px; }
+.radios .list .icon, .hotlists .list .icon { background-image: url("../imgs/play_list.png"); background-repeat: no-repeat; background-size: 24px 60px; }
 
-.radios .list .icon { background-image: url("../imgs/play_list.png"); background-repeat: no-repeat; background-size: 24px 60px; }
+.radios .list .icon_play, .hotlists .list .icon_play { position: absolute; display: block; z-index: 10; height: 24px; bottom: 5px; right: 5px; width: 24px; background-position: 0 0; }
 
-.radios .list .icon_play { position: absolute; display: block; z-index: 10; height: 24px; bottom: 5px; right: 5px; width: 24px; background-position: 0 0; }
+.radios .list .list-info, .hotlists .list .list-info { background-color: #fff; }
 
-.radios .list h2 { height: 36px; }
+.radios .list .list-info h3, .hotlists .list .list-info h3 { padding: 0px 7px 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: normal; }
+
+.radios .list .list-info p, .hotlists .list .list-info p { margin-left: 7px; font-size: 12px; }
+
+.radios h3 { height: 36px; }
+
+.rank-list { padding: 10px; }
+
+.rank-list .list-item { margin-bottom: 10px; overflow: hidden; background-color: #fff; }
+
+.rank-list .list-item .topic-img { height: 100px; float: left; position: relative; z-index: 1; }
+
+.rank-list .list-item .topic-img img { width: 100px; height: 100px; display: block; }
+
+.rank-list .list-item .topic-img .listen-count { position: absolute; left: 5px; bottom: 7px; line-height: 12px; color: #fff; opacity: .6; font-size: 9px; }
+
+.rank-list .list-item .topic-img .listen-count .icon-listen { display: block; float: left; width: 10px; height: 10px; background-position: 0 -50px; margin-right: 3px; background-image: url(../imgs/play_list.png); background-repeat: no-repeat; background-size: 24px 60px; z-index: 10; }
+
+.rank-list .list-item .topic-info { position: relative; padding: 7px 10px 6px 15px; display: flex; flex-direction: column; justify-content: center; }
+
+.rank-list .list-item .topic-info::after { content: ''; position: absolute; right: 10px; top: 50%; margin-top: -4px; width: 6px; height: 6px; transform: rotate(315deg); border-right: 1px solid #b2b2b2; border-bottom: 1px solid #b2b2b2; }
+
+.rank-list .list-item .topic-info .topic-tit { font-size: 16px; color: #000; font-weight: normal; padding-bottom: 5px; }
+
+.rank-list .list-item .topic-info p { font-size: 14px; color: rgba(0, 0, 0, 0.5); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
+.rank-list .list-item .topic-info p .text-name { color: #000; margin-left: 8px; margin-right: 5px; }
+
+#search-view { background-color: #fff; height: 100vh; }
+
+#search-view .search-bar { padding: 10px; background-color: #f3f3f3; }
+
+#search-view .search-bar .input-wrap { padding: 8px 12px 8px 35px; background-color: #fff; position: relative; border-radius: 4px; }
+
+#search-view .search-bar .input-wrap #search-input { width: 100%; border: none; outline: none; color: rgba(0, 0, 0, 0.3); height: 20px; line-height: 20px; font-size: 14px; }
+
+#search-view .search-bar .input-wrap #search-input::-webkit-input-placeholder { color: rgba(0, 0, 0, 0.3); }
+
+#search-view .search-bar .input-wrap .icon-search { position: absolute; top: 9px; left: 10px; width: 18px; height: 18px; background-image: url("../imgs/search.png"); background-repeat: no-repeat; background-size: cover; }
 
 header { height: 44px; background: #31c27c; }
+
+.views { -webkit-overflow-scrolling: touch; }

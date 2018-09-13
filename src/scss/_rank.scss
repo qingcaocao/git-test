@@ -1,0 +1,79 @@
+
+.rank-list{
+    padding: 10px;
+    .list-item{
+        margin-bottom: 10px;
+        overflow: hidden;
+        background-color: #fff;
+        .topic-img{
+            height: 100px;
+            float: left;
+            position: relative;
+            z-index: 1;
+            img{
+                width: 100px;
+                height: 100px;
+                display: block;
+            }
+            .listen-count{
+                position: absolute;
+                left: 5px;
+                bottom: 7px;
+                line-height: 12px;
+                color: #fff;
+                opacity: .6;
+                font-size: 9px;
+                // z-index: 10;
+                .icon-listen{
+                    display: block;
+                    float: left;
+                    width: 10px;
+                    height: 10px;
+                    background-position: 0 -50px;
+                    margin-right: 3px;
+                    background-image: url(../imgs/play_list.png);
+                    background-repeat: no-repeat;
+                    background-size: 24px 60px;
+                    z-index: 10;
+                }
+            }
+        }
+        .topic-info{
+            position: relative;
+            padding: 7px 10px 6px 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            &::after {
+                content: '';
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                margin-top: -4px;
+                width: 6px;
+                height: 6px;
+                transform: rotate(315deg);
+                border-right: 1px solid #b2b2b2;
+                border-bottom: 1px solid #b2b2b2;
+            }
+            .topic-tit{
+                font-size: 16px;
+                color: #000;
+                font-weight: normal;
+                padding-bottom: 5px;
+            }
+            p{
+                font-size: 14px;
+                color: rgba(0,0,0,.5);
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                .text-name{
+                    color: #000;
+                    margin-left: 8px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

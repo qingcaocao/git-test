@@ -9,7 +9,7 @@ class Slider{
         this.start()
     }
     render(){
-       
+
         this.$el.innerHTML = `<div class="qq-slider-wrap"></div>`
         this.$wrap = this.$el.firstElementChild
         this.$wrap.style.width = `${this.slides.length * 100}%`

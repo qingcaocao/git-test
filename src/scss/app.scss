@@ -6,7 +6,13 @@
 @import "navbar";
 @import "helpers";
 @import "rec";
+@import "rank";
+@import "search";
 header{
     height: $header-height;
     background: $header;
 }
+.views{
+    -webkit-overflow-scrolling: touch;
+}
+
